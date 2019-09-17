@@ -25,7 +25,7 @@ $(function() {
        });
     });
     
-    $(window).on("resize", resetVideoHeight);
+    
 });
 
 function resetVideoHeight() {
