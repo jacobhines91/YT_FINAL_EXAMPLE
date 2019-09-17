@@ -1,13 +1,13 @@
 
 body {
     background: url(F_background_1.png);
-    background-size: cover;
+    background-size:fixed;
     font-size: 25px;
 }
 .img-fluid {
     background: url("LOGO_02Asset26.png");
     position: absolute;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
