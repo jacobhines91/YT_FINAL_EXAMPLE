@@ -8,9 +8,9 @@ $(function() {
             part: "snippet",
             type: "video",
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
-            maxResults: 3,
+            maxResults: 1,
             order: "viewCount",
-            publishedAfter: "2015-01-01T00:00:00Z"
+            publishedAfter: "2000-01-01T00:00:00Z"
        }); 
        // execute the request
        request.execute(function(response) {
@@ -29,7 +29,7 @@ $(function() {
 });
 
 function resetVideoHeight() {
-    $(".video").css("height", $("#results").width() * 9/16);
+    $(".video").css("height", $("#results").width());
 }
 
 function init() {

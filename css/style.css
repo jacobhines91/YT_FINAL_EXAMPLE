@@ -4,31 +4,13 @@ body {
     background-size:fixed;
     font-size: 25px;
 }
-.img-fluid {
-    background: url("LOGO_02Asset26.png");
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-.navbar {
-    padding-bottom: 20px !important;
-}
-.navbar-collapse {
-margin-left: 200px;
-}
 
 
-.navbar-brand {
-background: url(LOGO_02Asset26.png);
-}
+
+
 #delayedPopup{
     background: url(login_card22Asset18.png);
 }
-#backgroundOverlay {
-    transition: 3s, color 2s;
-
-  }
 
 .video {
     border-bottom: 1px;
@@ -165,9 +147,4 @@ margin-left: 20px;
       box-shadow:none!important;
       cursor: pointer;
   }
-form, #results { padding: 0 20px; }
-.item { margin-bottom: 25px; }
-.w100 { width: 100%; }
 
-.btn-primary { background: #952b2b; border-color: #957575; }
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: #782b2b;  border-color: #952b2b; }
