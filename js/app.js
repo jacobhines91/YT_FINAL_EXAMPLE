@@ -25,11 +25,11 @@ $(function() {
        });
     });
     
-    
+    $(window).on("resize", resetVideoHeight);
 });
 
 function resetVideoHeight() {
-    $(".video").css("height", $("#results").width());
+    $(".video").css("height", $("#results").width() * 9/16);
 }
 
 function init() {
